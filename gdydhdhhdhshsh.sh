@@ -51,7 +51,7 @@ Documentation=https://trojan-gfw.github.io/trojan/
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/v2ray -c /etc/trojan/config.json -l /var/log/trojan.log
+ExecStart=/usr/bin/v2ray/v2ray -c /etc/trojan/config.json -l /var/log/trojan.log
 Type=simple
 KillMode=process
 Restart=no
